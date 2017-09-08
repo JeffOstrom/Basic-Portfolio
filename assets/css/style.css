@@ -41,13 +41,14 @@ header{
 }
 
 nav{
-	height:90px;
+	height:55px;
 	margin:0;
 	line-height: 90px;
 	float:right;
 	color:#777777; 
-	
-
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
 }
 
 nav ul{
@@ -63,7 +64,9 @@ nav ul{
 
 nav li{
 	display: inline;
-	font-size: 19px;
+	font-size: 20px;
+	text-align: center;
+
 }
 
 .wrapper{
@@ -91,11 +94,11 @@ nav li{
 	width: 270px;
 	background-color: #ffffff;
 	margin: 0;
-	padding: 0;
+	padding: 50;
 	float: right;
 	color: #4aaaa5;
 	text-align: center;
-	
+
 
 }
 
