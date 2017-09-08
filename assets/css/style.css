@@ -46,6 +46,8 @@ nav{
 	line-height: 90px;
 	float:right;
 	color:#777777; 
+	
+
 }
 
 nav ul{
@@ -92,6 +94,9 @@ nav li{
 	padding: 0;
 	float: right;
 	color: #4aaaa5;
+	text-align: center;
+	
+
 }
 
 footer {
@@ -116,9 +121,6 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
-input[type= submit] select {
-	color: red;
-}
 
 
 
