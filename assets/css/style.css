@@ -20,6 +20,7 @@ header{
 .content{
 	width: 960px;
 	margin: 0 auto;
+
 }
 .name{
 	background-color: #4aaaa5;
@@ -32,6 +33,11 @@ header{
 	font-size: 28px;
 	font-weight: bold;
 	color: white;
+	text-align: center;
+}
+.main h2{
+	color: #4aaaa5;
+
 }
 
 nav{
@@ -39,6 +45,7 @@ nav{
 	margin:0;
 	line-height: 90px;
 	float:right;
+	color:#777777; 
 }
 
 nav ul{
@@ -49,6 +56,7 @@ nav ul{
 	vertical-align: center;
 	line-height: 1em;
 	border-width: 0px;
+	color: #777777;
 }
 
 nav li{
@@ -63,34 +71,39 @@ nav li{
 	border-width: 0;
 	padding: 0;
 	min-height: calc(100vh - 92px - 80px);
+
 }
 
 .main {
 	width: 650px;
-	background-color: red;
+	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
 	float: left;
 	margin-right: 40px;
+
+
 }
 
 .side {
 	width: 270px;
-	background-color: purple;
+	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
 	float: right;
+	color: #4aaaa5;
 }
 
 footer {
 	clear: both;
 	text-align: center;
 	height: 80px;
-	background-color: blue;
+	background-color: #666666;
 	line-height: 79px;
 	vertical-align: center;
 	border-width: 0px;
 	margin: 0;
+	color: #777777;
 }
 
 
