@@ -99,6 +99,7 @@ nav li a {
 	float: right;
 	color: #4aaaa5;
 	text-align: center;
+	padding-top: 10px;
 }
 
 .side ul{
@@ -155,18 +156,6 @@ input[type=text], select {
 	height: 150px;
 	width: 200px;	
 	text-decoration: none;
-}
-
-#LinkedIn {
-	margin-right: 80px;
-}
-
-#github {
-	margin-left: 5px;
-}
-
-#stackoverflow {
-	margin-left: 5px;
 }
 
 .tabel {  
