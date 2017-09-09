@@ -83,10 +83,10 @@ nav li a {
 }
 
 .main {
-	width:650px;
+	width:610px;
 	background-color: #ffffff;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	float:left;
 	margin-right: 40px
 }
@@ -95,9 +95,10 @@ nav li a {
 		width: 270px;
 	background-color: #ffffff;
 	margin: 0;
-	padding: 50;
+	padding: 70;
 	float: right;
 	color: #4aaaa5;
+	text-align: center;
 }
 
 .side ul{
