@@ -60,13 +60,14 @@ nav ul{
 	line-height: 1em;
 	border-width: 0px;
 	color: #777777;
+
 }
 
 nav li{
 	display: inline;
 	font-size: 20px;
 	text-align: center;
-
+	text-decoration: none;
 }
 
 .wrapper{
@@ -80,26 +81,22 @@ nav li{
 }
 
 .main {
-	width: 650px;
+	width:650px;
 	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
-	float: left;
-	margin-right: 40px;
-
-
+	float:left;
+	margin-right: 40px
 }
 
 .side {
-	width: 270px;
+		width: 270px;
 	background-color: #ffffff;
 	margin: 0;
 	padding: 50;
 	float: right;
 	color: #4aaaa5;
 	text-align: center;
-
-
 }
 
 footer {
@@ -124,6 +121,10 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
+.portfolio img{
+	height: 150px;
+	width: 200px;
+}
 
 
 
