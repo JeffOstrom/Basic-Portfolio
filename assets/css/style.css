@@ -20,7 +20,6 @@ header{
 .content{
 	width: 960px;
 	margin: 0 auto;
-
 }
 .name{
 	background-color: #4aaaa5;
@@ -37,7 +36,6 @@ header{
 }
 .main h2{
 	color: #4aaaa5;
-
 }
 
 nav{
@@ -60,7 +58,6 @@ nav ul{
 	line-height: 1em;
 	border-width: 0px;
 	color: #777777;
-
 }
 
 nav li{
@@ -77,7 +74,6 @@ nav li{
 	border-width: 0;
 	padding: 0;
 	min-height: calc(100vh - 92px - 80px);
-
 }
 
 .main {
@@ -110,20 +106,32 @@ footer {
 	margin: 0;
 	color: #777777;
 }
+footer hr {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 5px;
+	color: #4faaa4;
+
+}
 
 input[type=text], select {
     width: 100%;
     padding: 12px 10px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 5 solid #ccc;
+    border-radius: 5px;
     box-sizing: border-box;
 }
 
 .portfolio img{
 	height: 150px;
-	width: 200px;
+	width: 200px;	
+	text-decoration: none;
 }
 
 
