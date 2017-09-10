@@ -2,6 +2,7 @@ body{
 	height: 100%;
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: auto;
 }
 
 header{
@@ -78,7 +79,7 @@ nav li a {
 	background:url(../images/concrete.png) repeat;
 	display: inline-block;
 	border-width: 0;
-	padding: 0;
+	padding: 30px;
 	min-height: calc(100vh - 92px - 80px);
 }
 
@@ -169,4 +170,6 @@ input[type=text], select {
 	float: left; 
 	margin-right: 15px;
 }
+
+
 
