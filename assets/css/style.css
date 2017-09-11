@@ -173,65 +173,43 @@ input[type=text], select {
 	margin-right: 15px;
 	}
 
-#hangman{
-	position:relative;
 
-	}
+.pictures {
+	display: inline-block;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	position: relative;
+	top:0;
+	left:0;
+}
 
-#hangman2{
-	position:absolute;
-	top: 300px;
-	left: 165px;
-	color: white;
-	padding-left: 66.5px;
-	padding-right: 66.5px;
-	background-color: #4aaaa5;
-	
+.pictures img{
+	width: 250px;
+	height: 250px;
 }
 
 
+.pictures:nth-child(odd){
+	float: left;
+}
 
-#TriviaGame {
-	
-	}
+.pictures:nth-child(even){
+	float: right;
+}
 
-#TriviaGame2 {
-	position: relative;
-	
-	}
-
-#LEDTV{
-	
-	}
-
-#LEDTV2 {
-	position: relative;
-
-	
-
-	}
-
-#MP3{
-
-	}
-
-#MP32 {
-	
-
-	}
-
-#RPG {
-	
-	}
-
-#RPG2 {
-	
-	}
-
-
-
-
-
+.pic-label {
+	position: absolute;
+	top: 210px;
+	left: 0;
+	width: 100%;
+	background-color: #4aaaa5;
+	z-index: 2;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
 
 
 
